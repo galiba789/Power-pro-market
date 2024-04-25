@@ -94,6 +94,9 @@ nav a:hover{
         max-width: 300px;
         height: auto;
     }
+
+    
+
 }
 /*  main   */
 .container {
@@ -111,7 +114,150 @@ nav a:hover{
     gap:20px;
     padding: 20px;
 }
+.avaliacoes, .main-head, .parte-calculadora {
+    background-color: #05CFFC;
+}
 
+.main-head {
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.left-head {
+    display: flex;
+    align-items: center;
+}
+
+.left-head h1, img {
+    padding-left: 20px;
+}
+
+.right-head {
+    margin-left: 1000px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#onBlueText {
+    color: #000000
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+a {
+    text-decoration-line: none;
+}
+.main-conteiner img{
+    
+    width: 500px;
+    height: auto;
+    padding: 50px;
+    max-width: 100%;
+    height: auto;
+    
+}
+.main-conteiner {
+    display: flex;
+   
+    padding-top: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.parte-calculadora {
+    padding-bottom: 65px;
+}
+
+.imc-calcular {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #05CFFC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1267E7;
+}
+
+#resultado {
+    height: 140px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+
+.avaliacoes {
+    padding: 10px;
+}
+
+
+
+/* cards de avaliação */
+.pessoa-avaliacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.card-ava {
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.rating {
+    color: #ff9800;
+}
+
+.checked {
+    color: #ff9800;
+}
+
+.comment {
+    margin-top: 10px;
+}
 
 /* Estilos dos cards */
 .card-dest{
@@ -222,3 +368,4 @@ button:hover {
   .buy-button:hover {
     background-color: #45a049;
 }
+
